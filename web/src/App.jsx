@@ -479,7 +479,7 @@ function AppContent() {
       {
         target: '.viewer-launches',
         title: '一键运行',
-        body: '顶部按钮可以把当前 Notebook 打开到 ModelScope 或 Colab，在线运行代码，无需本地配置。',
+        body: '顶部按钮可以把当前 Notebook 打开到 ModelScope 或 Colab，也可以进入 AMD 免费 GPU 运行测试模板。',
       },
       {
         target: '.bookmark-star',
@@ -574,7 +574,7 @@ function AppContent() {
       {
         target: '.viewer-launches',
         title: 'One-Click Run',
-        body: 'The top buttons open the current notebook in ModelScope or Google Colab. Run code online without any local setup.',
+        body: 'The top buttons open the current notebook in ModelScope or Google Colab, or launch the AMD template for free GPU testing.',
       },
       {
         target: '.bookmark-star',

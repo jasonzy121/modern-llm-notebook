@@ -990,6 +990,15 @@
   box-shadow: 0 4px 14px rgba(249, 171, 0, 0.12);
 }
 
+.viewer-launch-amd .viewer-launch-icon {
+  color: #ed1c24;
+}
+
+.viewer-launch-amd:hover {
+  border-color: rgba(237, 28, 36, 0.42);
+  box-shadow: 0 4px 14px rgba(237, 28, 36, 0.12);
+}
+
 .viewer-body {
   position: relative;
   display: grid;

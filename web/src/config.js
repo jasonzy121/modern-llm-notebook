@@ -35,6 +35,12 @@ export function getNotebookLaunchLinks(meta, notebookId) {
       href: getNotebookModelScopeUrl(meta, notebookId),
     },
     {
+      id: 'amd',
+      label: isEnglish ? 'AMD · Free GPU testing' : 'AMD · 免费 GPU 测试',
+      href: 'https://developer.amd.com.cn/radeon/templates/4015/preview',
+      title: isEnglish ? 'Open the AMD GPU testing template' : '打开 AMD 免费 GPU 运行测试模板',
+    },
+    {
       id: 'colab',
       label: isEnglish ? 'Open in Colab' : '在 Colab 打开',
       href: getNotebookColabUrl(meta, notebookId),

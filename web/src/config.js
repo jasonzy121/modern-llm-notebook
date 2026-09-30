@@ -36,9 +36,9 @@ export function getNotebookLaunchLinks(meta, notebookId) {
     },
     {
       id: 'amd',
-      label: isEnglish ? 'AMD · Free GPU testing' : 'AMD · 免费 GPU 测试',
+      label: isEnglish ? 'Open in AMD' : '在 AMD 打开',
       href: 'https://developer.amd.com.cn/radeon/templates/4015/preview',
-      title: isEnglish ? 'Open the AMD GPU testing template' : '打开 AMD 免费 GPU 运行测试模板',
+      title: isEnglish ? 'Open the AMD notebook template' : '打开 AMD Notebook 模板',
     },
     {
       id: 'colab',

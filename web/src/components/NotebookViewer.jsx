@@ -12,6 +12,7 @@ import {
   Trash2,
 } from 'lucide-react'
 import { getNotebookLaunchLinks } from '../config.js'
+import amdLogo from '../assets/amd-logo.png'
 import { prepareImage, putImage, deleteImage, normalizeImageEntry, MAX_IMAGE_MB, MAX_IMAGES } from '../utils/imageStore.js'
 import ImageLightbox, { useImagePreview } from './ImageLightbox.jsx'
 
@@ -1811,9 +1812,7 @@ function NotebookViewer({
                   </svg>
                 )}
                 {link.id === 'amd' && (
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 2h14v14l-5-5V7h-4L8 2zm-6 8 5-5v12h12l-5 5H2V10z" />
-                  </svg>
+                  <img src={amdLogo} width="48" height="12" alt="" />
                 )}
                 {link.id === 'colab' && (
                   <svg width="18" height="11" viewBox="0.17 5.07 23.67 13.87" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1847,6 +1846,7 @@ function NotebookViewer({
                 key={link.id}
                 className={`viewer-launch viewer-launch-${link.id}`}
                 href={link.href}
+                title={link.title}
                 target="_blank"
                 rel="noopener noreferrer"
               >

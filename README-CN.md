@@ -149,6 +149,16 @@ Modern LLM Notebook 选择中间路线：把现代 LLM 当成一个可以拆解�
 
 ## 快速开始
 
+### 通过合作伙伴入口在线运行
+
+欢迎随时打开这个项目，运行 Notebook、修改代码并测试实验结果。进入[在线阅读器](https://walkinglabs.github.io/modern-llm-notebook/)后，可以使用章节顶部的合作伙伴运行入口，无需先配置本地环境：
+
+- [在 ModelScope 打开](https://modelscope.cn/notebook/share/github/walkinglabs/modern-llm-notebook/blob/main/notebooks/part1-foundation/01-tokenizer-basics.ipynb)：在线打开 Notebook 并运行代码；其他章节可以使用页面顶部对应的入口。
+- [在 AMD 打开](https://developer.amd.com.cn/radeon/templates/4015/preview)：通过 AMD Radeon Cloud 的项目模板使用 GPU 运行和测试。
+- [在 Colab 打开](https://colab.research.google.com/github/walkinglabs/modern-llm-notebook/blob/main/notebooks/part1-foundation/01-tokenizer-basics.ipynb)：在浏览器中运行 Notebook，也可按平台提供的资源选择 GPU。
+
+感谢合作伙伴提供在线运行与计算资源支持。登录、GPU 可用性及使用额度以各平台当前规则为准。
+
 ### Python Notebook
 
 ```bash
